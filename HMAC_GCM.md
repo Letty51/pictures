@@ -29,6 +29,7 @@
 - Encrypt then MAC，先将明文加密，然后计算密文的 MAC，最后将密文和MAC值一起发送出去。
 > $$ C = E(K_c,P) $$
 > $$ t = MAC(K_M,C) $$
+> <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{200}&space;\fn_cs&space;C&space;=&space;E(K_c,P)\\&space;t&space;=&space;MAC(K_M,C)" target="_blank"><img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\fn_cs&space;C&space;=&space;E(K_c,P)\\&space;t&space;=&space;MAC(K_M,C)" title="C = E(K_c,P)\\ t = MAC(K_M,C)" /></a>
 
 ![](https://github.com/Letty51/pictures/blob/master/Encrypt%20then%20MAC.png)
 
